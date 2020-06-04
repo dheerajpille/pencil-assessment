@@ -15,7 +15,7 @@ show it in the editor ready for editing.
 5. Host your project using Firebase hosting and send us a link, along with your code on
 GitHub.
 
-This project can be found 
+This project is hosted on Firebase at https://pencil-assessment-bd6f3.web.app/.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
