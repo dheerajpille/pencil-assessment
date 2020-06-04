@@ -52,6 +52,7 @@ firebase-debug.log
 # Firebase Database
 firestore.rules
 firestore.indexes.json
+database.rules.json
 
 # Firebase
 /.firebase
