@@ -1,0 +1,28 @@
+<div *ngIf="auth.user$ | async; then authenticated else guest"></div>
+
+<!-- User NOT logged in -->
+<ng-template #guest>
+    <div class="jumbotron min-vh-100 text-center m-0 d-flex flex-column justify-content-center">
+        <h3><b>Pencil Learning Technologies</b></h3>
+        <h4>Fall 2020 SWE Intern Assessment</h4>
+        <br/>
+        <button (click)="auth.googleSignin()" class="btn btn-primary btn-lg"><i class="fa fa-google"></i> Sign in with Google</button>
+    </div>
+</ng-template>
+
+<!-- User logged in -->
+<ng-template #authenticated>
+    <div *ngIf="auth.user$ | async as user">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <h6 class="title">Signed in as {{ user.email }}</h6>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button (click)="auth.signOut()" class="btn btn-secondary"><b>Logout</b></button>
+                </li>
+            </ul>
+        </nav>
+        <app-editor></app-editor>
+    </div>
+</ng-template>
+
+<router-outlet></router-outlet>
