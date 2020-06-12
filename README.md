@@ -52,4 +52,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Resources
 
-The primary resources used to help build this project are [Google OAuth with @angular/fire](https://fireship.io/lessons/angularfire-google-oauth/) and [angular-medium-editor-example](https://stackblitz.com/edit/angular-medium-editor-example).
+The primary resources used to help build this project are [Google OAuth with @angular/fire](https://fireship.io/lessons/angularfire-google-oauth/), [angular-medium-editor-example](https://stackblitz.com/edit/angular-medium-editor-example), and [Mathjax playground in Angular 6](https://shubhvjain.github.io/angular-mathjax/).
