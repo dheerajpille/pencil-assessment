@@ -14,6 +14,9 @@ real-time for that user’s account, automatically, without hitting a submit but
 show it in the editor ready for editing.
 5. Host your project using Firebase hosting and send us a link, along with your code on
 GitHub.
+6. Bonus: Allow the user to enter LaTeX equations into the editor inside 2 enclosing $
+symbols (e.g. $1+1=2$) and once the user is done typing them out, render the actual
+equation.
 
 This project is hosted on Firebase at https://pencil-assessment-bd6f3.web.app/.
 

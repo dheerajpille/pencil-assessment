@@ -9,6 +9,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { EditorComponent } from './editor/editor.component';
+import { MathjaxComponent } from './mathjax/mathjax.component';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCDnnrrOZm6N3a6KVz7uY1NfEVGPubYgN4",
@@ -30,7 +31,7 @@ const firebaseConfig = {
     AppRoutingModule,
     RouterModule
   ],
-  declarations: [AppComponent, EditorComponent],
+  declarations: [AppComponent, EditorComponent, MathjaxComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

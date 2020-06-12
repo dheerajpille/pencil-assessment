@@ -4,4 +4,7 @@
 
 #editorArea {
     padding: 0 1em 0 1em;
+    outline-style: solid;
+    outline-color: darkgray;
+    outline-width: 0.2em;
 }
